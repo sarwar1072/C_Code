@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1672926251 source:d:\test\cocode\frequencyofnum\main.c
+	<stdio.h>
+	<stdlib.h>
+
