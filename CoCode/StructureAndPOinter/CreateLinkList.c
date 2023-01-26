@@ -29,9 +29,7 @@ void createList(int n)
 {
     struct node *newNode, *temp;
     int data, i;
-
     head = (struct node *)malloc(sizeof(struct node));
-
     // Terminate if memory not allocated
     if(head == NULL)
     {
@@ -39,14 +37,12 @@ void createList(int n)
         exit(0);
     }
 
-
     // Input data of node from the user
     printf("Enter the data of node 1: ");
     scanf("%d", &data);
 
     head->data = data; // Link data field with data
     head->next = NULL; // Link address field to NULL
-
     // Create n - 1 nodes and add to list
     temp = head;
     for(i=2; i<=n; i++)
