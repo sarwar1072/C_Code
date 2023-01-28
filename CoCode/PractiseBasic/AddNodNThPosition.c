@@ -19,12 +19,12 @@ void Insert(int value,int n)
         return;
     }
     struct node* temp2=head;
-    for(i=0;i<n-2;i++){
+    for(i=0; i<n-2; i++)
+    {
         temp2=temp2->link;
     }
     temp->link=temp2->link;
     temp2->link=temp;
-
 }
 void Printf()
 {
@@ -44,6 +44,8 @@ int main()
     Insert(2,1);
     Insert(1,1);
     Insert(0,1);
+    Insert(-1,1);
+
     Insert(-2,2);
     Insert(-3,3);
 
