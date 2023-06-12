@@ -30,12 +30,10 @@ int main()
     for(i=0; i<5; i++)
     {
         printf("incrment of value 6 + %d : %d\n",i,(*ar+i));
-
     }
     for(i=0; i<5; i++)
     {
-        printf("%d\n",*(ar+i));
-
+        printf("%d : %d\n",*(ar+i),ar+i);
     }
     return 0;
 }

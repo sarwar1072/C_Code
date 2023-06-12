@@ -25,11 +25,9 @@ int main()
                 min=j;
             }
         }
-
             temp=ar[i];
             ar[i]=ar[min];
             ar[min]=temp;
-
     }
     printf("sorted array:\n ");
     for(i=0; i<len; i++)

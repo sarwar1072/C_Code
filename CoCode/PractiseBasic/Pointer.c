@@ -31,7 +31,7 @@ int main()
     {
         if(fr[i]==1)
         {
-            printf("%d\n",ar[i]);
+            printf(" answer: %d\n",ar[i]);
         }
     }
 

@@ -7,7 +7,6 @@ int main()
     for(i=0; i<len; i++)
     {
         scanf("%d",&ar[i]);
-
     }
     for(i=0; i<len; i++)
     {
@@ -16,8 +15,8 @@ int main()
             for(k=j+1; k<=len; k++)
             {
                 if(ar[i] + ar[j] > ar[k] &&
-                   ar[i] + ar[k] > ar[j] &&
-                   ar[j] + ar[k] > ar[j])
+                        ar[i] + ar[k] > ar[j] &&
+                        ar[j] + ar[k] > ar[j])
                 {
                     count++;
                 }
